@@ -4,7 +4,7 @@ import { ProjectCard } from './ProjectCard';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1 .png";
 import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from '../assets/img/project-img3.png';
+import projImg from '../assets/img/hospital.png';
 import TrackVisibility from 'react-on-screen';  // Import TrackVisibility if not already
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
         {
             title: "Hospital Management System",
             description: "Designed to manage the resources of the hospital",
-            imgUrl: projImg3,
+            imgUrl:projImg
         },
     ];
 
